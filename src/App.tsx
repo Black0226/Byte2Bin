@@ -331,7 +331,7 @@ const teamRoute = createRoute({
 
 const routeTree = rootRoute.addChildren([indexRoute, designRoute, specsRoute, teamRoute]);
 
-const router = createRouter({ routeTree });
+const router = createRouter({ routeTree, basepath: '/Byte2Bin' });
 
 export default function App() {
   return <RouterProvider router={router} />;
