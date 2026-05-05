@@ -73,7 +73,7 @@ function Design() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="w-full md:w-1/2 text-center">
             <img
-              src="/figures/design/Assembly.png"
+              src="./figures/design/Assembly.png"
               alt="RoboSort-M1 Assembly"
               className="w-full h-auto object-contain drop-shadow-2xl"
               referrerPolicy="no-referrer"
@@ -82,7 +82,7 @@ function Design() {
           </div>
           <div className="w-full md:w-1/2 text-center">
             <img
-              src="/figures/design/CAD.png"
+              src="./figures/design/CAD.png"
               alt="RoboSort-M1 CAD"
               className="w-full h-auto object-contain"
               referrerPolicy="no-referrer"
@@ -100,8 +100,8 @@ function Design() {
           title: 'High-Stability Chassis',
           desc: 'The MOD-01 chassis is optimized for low center of gravity and high torque distribution. Using 4-wheel DC gear motors, the system maintains precise trajectory adherence even during complex sorting maneuvers.',
           list: ['8-Channel IR Array Integration', 'High-Traction Rubber Tyres', 'Reinforced Acrylic Baseplate'],
-          img1: '/figures/design/8ch-line-sensor.png',
-          img2: '/figures/design/chassis-photo.jpg',
+          img1: './figures/design/8ch-line-sensor.png',
+          img2: './figures/design/chassis-photo.jpg',
           imgLabel1: '8-Channel IR Array',
           imgLabel2: 'Chassis Module',
           img2Cover: true,
@@ -112,8 +112,8 @@ function Design() {
           label: '02 / Obstacle Avoidance',
           title: 'Arena Awareness',
           desc: 'The HC-SR04 ultrasonic module scans the 180° frontal arc and feeds distance data into the FSM for real-time obstacle detection and path adjustment.',
-          img1: '/figures/design/ultrasonic-front.png',
-          img2: '/figures/design/ultrasonic-sensor.png',
+          img1: './figures/design/ultrasonic-front.png',
+          img2: './figures/design/ultrasonic-sensor.png',
           imgLabel1: 'Ultrasonic Detection',
           imgLabel2: 'HC-SR04 Module',
           img1Cover: true,
@@ -124,8 +124,8 @@ function Design() {
           label: '03 / Color Recognition',
           title: 'Color Detection System',
           desc: 'The color sensor identifies target objects by detecting color attributes. Combined with the gripper, it enables precise pick-and-place operations for sorted items.',
-          img1: '/figures/design/color-sensor.png',
-          img2: '/figures/design/sensor-gripper.png',
+          img1: './figures/design/color-sensor.png',
+          img2: './figures/design/sensor-gripper.png',
           imgLabel1: 'Color Sensor',
           imgLabel2: 'Sensor Gripper',
           img2Cover: true,
@@ -136,10 +136,10 @@ function Design() {
           label: '04 / Robotic Arm',
           title: '4-DOF Kinematic Core',
           desc: 'Our custom-engineered robotic arm utilizes inverse kinematic calculations to achieve sub-centimeter accuracy. The 4-DOF configuration provides the optimal balance between freedom of movement and servo torque efficiency.',
-          armImg: '/figures/design/robotic-arm.png',
-          armDesignImg: '/figures/design/robotic-arm-design.png',
-          gripperImg: '/figures/design/gripper.png',
-          gripperDesignImg: '/figures/design/gripper-design.png',
+          armImg: './figures/design/robotic-arm.png',
+          armDesignImg: './figures/design/robotic-arm-design.png',
+          gripperImg: './figures/design/gripper.png',
+          gripperDesignImg: './figures/design/gripper-design.png',
           reverse: null,
         },
         {
@@ -148,9 +148,9 @@ function Design() {
           title: 'Bidirectional Communication',
           desc: 'Real-time wireless control enables interactive debugging and manual override. Monitor telemetry data, sensor readings, and system status directly from your computer while sending precise motion commands.',
           list: ['Serial Port Profile (SPP)', 'Real-time Data Streaming', 'Interactive Command Interface'],
-          img1: '/figures/design/bluetooth-pc.png',
+          img1: './figures/design/bluetooth-pc.png',
           imgLabel1: 'Bluetooth Module',
-          algoImg: '/figures/design/algorithm-flow-1.png',
+          algoImg: './figures/design/algorithm-flow-1.png',
           algoLabel: 'Algorithm Flowchart',
           reverse: false,
         },
@@ -159,9 +159,9 @@ function Design() {
           label: '06 / Multi-Task Sorting',
           title: 'Batch Storage & Classification',
           desc: 'On-board 9-slot cargo deck accommodates up to 9+ objects simultaneously with integrated color detection and multi-category batching capability. Intelligent path planning coordinates sequential pick-and-place operations across multiple sorting bins with sub-centimeter precision.',
-          img1: '/figures/design/storage-slot.png',
+          img1: './figures/design/storage-slot.png',
           imgLabel1: 'Storage Slot',
-          algoImg: '/figures/design/algorithm-flow-2.png',
+          algoImg: './figures/design/algorithm-flow-2.png',
           algoLabel: 'Algorithm Flowchart',
           reverse: true,
         },

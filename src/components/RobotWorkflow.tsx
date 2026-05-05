@@ -6,37 +6,37 @@ const steps = [
     num: '01',
     title: 'Depart from Start',
     desc: 'The robot positions itself at the start zone. After system startup, the sensors perform a self-check, and the drive program is autonomously activated by the control core.',
-    img: '/figures/overview/phase1-line-follow.png',
+    img: './figures/overview/phase1-line-follow.png',
   },
   {
     num: '02',
     title: 'Follow the Line',
     desc: 'The car travels smoothly and autonomously along the guide line on the ground. The infrared sensor array corrects deviations in real time while maintaining obstacle detection.',
-    img: '/figures/overview/phase6-reset.png',
+    img: './figures/overview/phase6-reset.png',
   },
   {
     num: '03',
     title: 'Reach Identification Zone',
     desc: 'The car stops precisely in front of the target object. The color sensor communicates with the control core to quickly lock onto the object\'s category attributes.',
-    img: '/figures/overview/phase3-classify.png',
+    img: './figures/overview/phase3-classify.png',
   },
   {
     num: '04',
     title: 'Robotic Arm Grasp',
     desc: 'The controller calculates joint movements and drives the 5-DOF servo arm to execute millimeter-level precise positioning and smooth grasping of the object.',
-    img: '/figures/overview/phase2-grab.png',
+    img: './figures/overview/phase2-grab.png',
   },
   {
     num: '05',
     title: 'Automated Sorting',
     desc: 'Based on the color identification results, the robotic arm precisely transports the object to one of the three preset sorting bins, completing the sorting action.',
-    img: '/figures/overview/phase4-stack.png',
+    img: './figures/overview/phase4-stack.png',
   },
   {
     num: '06',
     title: 'Mission Complete',
     desc: 'After all sorting is finished, the robot autonomously returns to the starting point along the line-following path, completing a full smart logistics closed-loop cycle.',
-    img: '/figures/overview/phase5-sort-return.png',
+    img: './figures/overview/phase5-sort-return.png',
   },
 ];
 

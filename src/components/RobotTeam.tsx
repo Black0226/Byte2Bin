@@ -5,43 +5,43 @@ const members = [
     name: "Qiankai Zhao",
     role: "System Architect & Lead Engineer",
     desc: "Robot wiring, overall assembly, structural 3D design. Expert in mechanical logic and project coordination.",
-    photo: "/figures/team/qiankaizhao.jpg",
-    workPhoto: "/figures/team/zhao.jpg"
+    photo: "./figures/team/qiankaizhao.jpg",
+    workPhoto: "./figures/team/zhao.jpg"
   },
   {
     name: "Jiahao Liu",
     role: "Software Engineer & UI Designer",
     desc: "Arduino core programming, hardware debugging, web application architecture. Bridges silicon and software.",
-    photo: "/figures/team/jiahaoliu.png",
-    workPhoto: "/figures/team/liu.jpg"
+    photo: "./figures/team/jiahaoliu.png",
+    workPhoto: "./figures/team/liu.jpg"
   },
   {
     name: "Yuzhi He",
     role: "Mechanical Designer & Frontend Dev",
     desc: "Precise 3D component modeling, hardware installation, user interface implementation.",
-    photo: "/figures/team/yuzhihe.jpg",
-    workPhoto: "/figures/team/he.jpg"
+    photo: "./figures/team/yuzhihe.jpg",
+    workPhoto: "./figures/team/he.jpg"
   },
   {
     name: "Taiming Hu",
     role: "Algorithm Specialist & Media Director",
     desc: "Software logic debugging, code optimization, technical promotional media production.",
-    photo: "/figures/team/taiminghu.jpg",
-    workPhoto: "/figures/team/hu.jpg"
+    photo: "./figures/team/taiminghu.jpg",
+    workPhoto: "./figures/team/hu.jpg"
   },
   {
     name: "Yu Han",
     role: "Hardware Integration & Design Lead",
     desc: "Robotic arm and gripper construction, storage structure design, technical presentation strategy.",
-    photo: "/figures/team/yuhan.jpg",
-    workPhoto: "/figures/team/han.jpg"
+    photo: "./figures/team/yuhan.jpg",
+    workPhoto: "./figures/team/han.jpg"
   },
   {
     name: "Shenbo Zhou",
     role: "Control Systems & Visual Designer",
     desc: "Robotic arm code optimization, hardware field installation, corporate visual communication.",
-    photo: "/figures/team/shenbozhou.jpg",
-    workPhoto: "/figures/team/zhou.jpg"
+    photo: "./figures/team/shenbozhou.jpg",
+    workPhoto: "./figures/team/zhou.jpg"
   }
 ];
 
@@ -66,7 +66,7 @@ export function RobotTeam() {
       {/* Hero with Team Photo */}
       <div className="relative h-[85vh] overflow-hidden">
         <img
-          src="/figures/team/teamphotowithcar.jpg"
+          src="./figures/team/teamphotowithcar.jpg"
           alt="Byte to Bin Team"
           className="absolute inset-0 w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"
@@ -217,7 +217,7 @@ export function RobotTeam() {
               preload="metadata"
               referrerPolicy="no-referrer"
             >
-              <source src="/figures/team/v.mp4" type="video/mp4" />
+              <source src="./figures/team/v.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

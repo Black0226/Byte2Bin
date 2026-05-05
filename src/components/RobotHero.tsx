@@ -45,7 +45,7 @@ export function RobotHero() {
           className="relative w-full max-w-3xl mx-auto"
         >
           <img
-            src="/figures/1.png"
+            src="./figures/1.png"
             alt="RoboSort-M1 — Byte to Bin Autonomous Sorting Robot"
             className="w-full object-contain drop-shadow-2xl"
             style={{ maxHeight: '560px' }}
