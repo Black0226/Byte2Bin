@@ -18,7 +18,18 @@
       "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" repo create Byte2Bin --public --source=. --push)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(C:/Program Files/GitHub CLI/gh.exe repo *)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" repo pages enable --branch master)",
+      "Bash(C:/Program Files/GitHub CLI/gh.exe extension *)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" api repos/Black0226/Byte2Bin/pages --method POST --field build_type=workflow --field source[branch]=master --field source[path]=/)",
+      "Bash(C:/Program Files/GitHub CLI/gh.exe api *)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" api repos/Black0226/Byte2Bin/deployments)",
+      "Bash(git push *)",
+      "Bash(C:/Program Files/GitHub CLI/gh.exe run *)",
+      "Bash(curl *)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" run view --repo Black0226/Byte2Bin 25386937684 --log)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" run list --repo Black0226/Byte2Bin)"
     ]
   }
 }
