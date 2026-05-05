@@ -29,7 +29,17 @@
       "Bash(C:/Program Files/GitHub CLI/gh.exe run *)",
       "Bash(curl *)",
       "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" run view --repo Black0226/Byte2Bin 25386937684 --log)",
-      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" run list --repo Black0226/Byte2Bin)"
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" run list --repo Black0226/Byte2Bin)",
+      "Bash(mv 传感器夹爪.png sensor-gripper.png)",
+      "Bash(mv 储备槽.png storage-slot.png)",
+      "Bash(mv 八路巡线cgq.png 8ch-line-sensor.png)",
+      "Bash(mv 夹爪.png gripper.png)",
+      "Bash(mv 夹爪设计.png gripper-design.png)",
+      "Bash(mv phase1-循迹.png phase1-line-follow.png)",
+      "Bash(mv phase2-夹取.png phase2-grab.png)",
+      "Bash(mv phase3-识别分类.png phase3-classify.png)",
+      "Bash(mv phase4-堆积.png phase4-stack.png)",
+      "Bash(mv phase5-分拣放回.png phase5-sort-return.png)"
     ]
   }
 }
