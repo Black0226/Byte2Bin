@@ -1,0 +1,6 @@
+{
+  "name": "RoboSort-M1 Official",
+  "description": "The first-generation intelligent sorting robot system developed by Byte to Bin, featuring line following, obstacle avoidance, and precision sorting capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

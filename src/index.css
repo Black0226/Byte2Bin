@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  --color-apple-bg: #F5F5F7;
+  --color-apple-text: #1D1D1F;
+  --color-apple-muted: #86868B;
+  --color-apple-border: #E5E5E7;
+  --color-apple-blue: #0066CC;
+  --color-apple-tertiary: #D2D2D7;
+
+  /* DJI-inspired typography scale */
+  --text-display: 4.5rem;
+  --text-title: 2rem;
+  --text-heading: 1.5rem;
+  --text-body: 0.875rem;
+  --text-caption: 0.75rem;
+  --text-label: 0.6875rem;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased text-apple-text bg-apple-bg;
+  }
+}
